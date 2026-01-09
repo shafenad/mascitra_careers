@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+
+.calendar {
+    border-radius: 10px;
+    padding: 20px;
+    background: #ffffff;
+    transition: 0.3s;
+    font-family: 'Nunito', sans-serif !important;
+}
+
+html[data-bs-theme="dark"] .calendar {
+    background: #1E1E2D;
+    color: white;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calendar-weekdays,
+.calendar-dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 10px;
+    text-align: center;
+}
+
+.calendar-dates div {
+    padding: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.event-dot {
+    width: 2px !important;
+    height: 2px !important;
+    background: red !important;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+}
+
+
+
+/* Hover effect */
+.calendar-dates div:hover {
+    background: #f0f0f0;
+    border-radius: 6px;
+}
+
+html[data-bs-theme="dark"] .calendar-dates div:hover {
+    background: #3a3a3a;
+}

@@ -1,0 +1,21 @@
+
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+@import './components/default.css';
+@import './components/default-dark.css';
+@import './components/iconly.css';
+@import './components/calendar.css';
+@import './components/table-datatable-jquery.css';
+@import './components/dataTables.bootstrap5.min.css';
+@import './components/form-editor-summernote.css';
+@import './components/choices.css';
+@import './custom.css';
+
+
+
+
+
+
+
+

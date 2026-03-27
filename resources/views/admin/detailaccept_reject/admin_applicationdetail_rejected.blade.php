@@ -21,6 +21,11 @@
             </div>
 
             <div class="detail-row">
+                <div class="label">Phone Number</div>
+                <div class="value">08789656532</div>
+            </div>
+
+            <div class="detail-row">
                 <div class="label">Institution</div>
                 <div class="value">Universitas Gadjah Mada</div>
             </div>
